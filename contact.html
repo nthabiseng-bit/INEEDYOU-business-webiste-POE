@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us and Opening Hours | INEEDYOU Authentic Wear</title>
+  <meta name="description" content="Contact INEEDYOU Authentic Wear in Middelburg, Mpumalanga. See opening hours, follow us on Instagram or send us a message.">
+  <meta name="keywords" content="contact INEEDYOU, clothing store Middelburg Mpumalanga, opening hours, Instagram">
+  <link rel="icon" type="image/jpeg" href="images/ineedyou-logo.jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="brand-row">
+      <img src="images/ineedyou-logo.jpg" alt="INEEDYOU Authentic Wear logo" width="256" height="256">
+      <span>INEEDYOU Authentic Wear</span>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="planning.html">Project Plan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <h1>Contact and hours</h1>
+
+    <table>
+      <tr><th>Contact person</th><td>Msiza Arnold Ndumiso</td></tr>
+      <tr><th>Business enquiry</th><td>Use the <a href="enquiry.html">Enquiry form</a></td></tr>
+      <tr><th>Instagram</th><td><a href="https://instagram.com/ineedyouauthenticwear26" target="_blank" rel="noopener noreferrer">@ineedyouauthenticwear26</a></td></tr>
+      <tr><th>Location</th><td>Middelburg, Mpumalanga, South Africa</td></tr>
+      <tr><th>Operating hours</th><td>Monday-Saturday, 9am-6pm</td></tr>
+    </table>
+
+    <h2>Find Us</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23807.287182395743!2d29.406766376147644!3d-25.752299000860575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eea61d107d5a425%3A0xb27b9d3f3d2b1597!2sMhluzi%2C%20Middelburg%2C%201053!5e1!3m2!1sen!2sza!4v1793205201634!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <p>Follow our location</p>
+
+    <h2>Send us a message</h2>
+    <p>Fill in the form below. When you press the button your message is turned into an email that you can open in your email app and send to us.</p>
+    <form id="contact-form" novalidate>
+      <div class="form-error-summary" role="alert"></div>
+      <div class="form-row">
+        <label for="c-name">Full name *</label>
+        <input type="text" id="c-name" name="name" required minlength="2" maxlength="60" data-rule="name" data-label="Your name" autocomplete="name">
+        <span class="error-msg" id="c-name-error" role="alert"></span>
+      </div>
+      <div class="form-row">
+        <label for="c-email">Email address *</label>
+        <input type="email" id="c-email" name="email" required data-rule="email" data-label="Your email" autocomplete="email">
+        <span class="error-msg" id="c-email-error" role="alert"></span>
+      </div>
+      <div class="form-row">
+        <label for="c-phone">Phone number (optional)</label>
+        <input type="tel" id="c-phone" name="phone" data-rule="phone" data-label="Phone number" autocomplete="tel" placeholder="071 234 5678">
+        <span class="hint" id="c-phone-hint">South African number, e.g. 071 234 5678 or +27 71 234 5678</span>
+        <span class="error-msg" id="c-phone-error" role="alert"></span>
+      </div>
+      <div class="form-row">
+        <label for="reason">Type of message *</label>
+        <select id="reason" name="reason" required data-label="Type of message"><option value="">Choose one</option><option value="general">General message</option><option value="feedback">Feedback</option><option value="collab">Collaboration</option><option value="complaint">Complaint</option></select>
+        <span class="error-msg" id="reason-error" role="alert"></span>
+      </div>
+      <div class="form-row">
+        <label for="subject">Subject *</label>
+        <input type="text" id="subject" name="subject" required minlength="3" maxlength="80" data-label="Subject">
+        <span class="error-msg" id="subject-error" role="alert"></span>
+      </div>
+      <div class="form-row">
+        <label for="c-message">Message *</label>
+        <textarea id="c-message" name="message" rows="6" required minlength="10" maxlength="1000" data-label="Message"></textarea><span class="char-count" id="c-message-count">0 / 1000</span>
+        <span class="error-msg" id="c-message-error" role="alert"></span>
+      </div>
+      <div class="hp-field" aria-hidden="true"><label for="website">Leave this empty</label><input type="text" id="website" name="website" tabindex="-1" autocomplete="off"></div>
+      <button type="submit" class="submit-btn">Prepare my email</button>
+      <p class="form-note">Fields marked * are required.</p>
+    </form>
+
+    <section class="result-panel" id="email-preview" aria-live="polite">
+      <h2>Your email is ready</h2>
+      <p>Check the text below, then open it in your email app or copy it.</p>
+      <label for="email-body" class="visually-hidden">Email text</label>
+      <textarea id="email-body" readonly></textarea>
+      <div class="btn-row">
+        <a class="btn-link" id="open-email" href="#">Open in my email app</a>
+        <button type="button" class="secondary-btn" id="copy-email">Copy email text</button>
+      </div>
+      <p class="form-note" id="email-note" role="status"></p>
+    </section>
+
+    <h2>Follow us</h2>
+    <figure>
+      <img src="images/instagram-qr-code.jpg" alt="QR code that links to the I Need You Authentic Wear Instagram page" width="600" height="528" loading="lazy" style="max-width:14rem;">
+      <figcaption>Scan to follow @ineedyouauthenticwear26</figcaption>
+    </figure>
+
+    <h2>Reference list</h2>
+    <div class="reference-list">
+      <p>Mashigo, N.B. (2026) <em>INEEDYOU (Pty) Ltd: company profile</em>. [Unpublished]. Mohlakeng: INEEDYOU (Pty) Ltd.</p>
+      <p>Leaflet (n.d.) <em>Leaflet quick start guide</em>. Available at: <a href="https://leafletjs.com/examples/quick-start/" target="_blank" rel="noopener noreferrer">https://leafletjs.com/examples/quick-start/</a> (Accessed: 22 October 2026).</p>
+      <p>OpenStreetMap (n.d.) <em>Copyright and licence</em>. Available at: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">https://www.openstreetmap.org/copyright</a> (Accessed: 22 October 2026).</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2025</span> INEEDYOU (Pty) Ltd &middot; Reg. 2025/007134/07 &middot; Made in South Africa</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

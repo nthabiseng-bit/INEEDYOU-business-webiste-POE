@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Plan | INEEDYOU Authentic Wear</title>
+  <meta name="description" content="The INEEDYOU Authentic Wear project plan: milestones, wireframes, technical requirements and known limitations for the website.">
+  <meta name="keywords" content="project plan, wireframe, milestones, web development POE, INEEDYOU">
+  <link rel="icon" type="image/jpeg" href="images/ineedyou-logo.jpg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="brand-row">
+      <img src="images/ineedyou-logo.jpg" alt="INEEDYOU Authentic Wear logo" width="256" height="256">
+      <span>INEEDYOU Authentic Wear</span>
+    </div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="planning.html">Project Plan</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <h1>Project Plan</h1>
+    <p>This page documents the planning side of the website build for the POE: milestones and timeline, the wireframe used to lay out the pages, and the technical requirements the site is built against.</p>
+
+    <!-- ============ MILESTONES & TIMELINE ============ -->
+    <h2>1. Milestones &amp; timeline</h2>
+    <table>
+      <tr>
+        <th>Milestone</th>
+        <th>Target date</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Content gathering &amp; brand assets collected</td>
+        <td>Week 1</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>Wireframe &amp; site structure planned</td>
+        <td>Week 1</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>Home, About, Products, Contact, Enquiry pages built</td>
+        <td>Week 2</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>CSS folder &amp; shared stylesheet finalised</td>
+        <td>Week 2</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>JS folder &amp; enquiry form validation added</td>
+        <td>Week 2</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>Personal contact details removed from public repo</td>
+        <td>Week 2</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+            <tr>
+        <td>Harvard referencing checked on every page</td>
+        <td>Week 2</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>Part 2 feedback addressed (see CHANGELOG.md)</td>
+        <td>Week 3</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>JavaScript enhancements: menu, product search, lightbox, accordion, map</td>
+        <td>Week 4</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>Enquiry and contact forms with validation and AJAX submission</td>
+        <td>Week 4</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>SEO: titles, meta descriptions, sitemap.xml, robots.txt</td>
+        <td>Week 4</td>
+        <td><span class="timeline-status status-done">Done</span></td>
+      </tr>
+      <tr>
+        <td>Deploy on a free platform (GitHub Pages)</td>
+        <td>Week 4</td>
+        <td><span class="timeline-status status-progress">In progress</span></td>
+      </tr>
+<tr>
+        <td>Final testing across browsers &amp; devices</td>
+        <td>Week 4</td>
+        <td><span class="timeline-status status-upcoming">Upcoming</span></td>
+      </tr>
+      <tr>
+        <td>Submission of final POE</td>
+        <td>Week 5</td>
+        <td><span class="timeline-status status-upcoming">Upcoming</span></td>
+      </tr>
+    </table>
+
+    <!-- ============ WIREFRAME ============ -->
+    <h2>2. Wireframe</h2>
+    <p>Low-fidelity layout used to plan the Home page before building it. The same header/nav and footer pattern is reused on every page for consistency.</p>
+
+    <div class="wireframe">
+      <div class="wf-block">LOGO + BRAND NAME</div>
+      <div class="wf-block">NAV (menu button on mobile): Home | About | Products | Contact | Enquiry | Project Plan</div>
+      <div class="wf-block" style="padding:26px 10px;">HERO - heading, short intro text, hero image</div>
+      <div class="wf-row">
+        <div class="wf-block">Section: Why we started</div>
+        <div class="wf-block">Section: What we sell</div>
+      </div>
+      <div class="wf-block">Section: Get in touch (link to Enquiry)</div>
+      <div class="wf-block">Reference list</div>
+      <div class="wf-block">FOOTER - copyright, registration number</div>
+    </div>
+
+    <p>The Enquiry page follows the same header/footer pattern, with a form block in place of the content sections:</p>
+    <div class="wireframe">
+      <div class="wf-block">LOGO + BRAND NAME</div>
+      <div class="wf-block">NAV</div>
+      <div class="wf-block">Heading + short intro</div>
+      <div class="wf-block" style="padding:26px 10px;">FORM - name, email, product dropdown, message, submit button</div>
+      <div class="wf-block">Reference list</div>
+      <div class="wf-block">FOOTER</div>
+    </div>
+
+    <!-- ============ TECHNICAL REQUIREMENTS ============ -->
+    <h2>3. Technical requirements</h2>
+    <h3>Built with</h3>
+    <ul>
+      <li>HTML5 - semantic markup, one file per page</li>
+      <li>CSS3 - a single shared stylesheet at <code>css/style.css</code>, using CSS Grid and Flexbox for layout</li>
+      <li>Vanilla JavaScript - <code>js/script.js</code>, no frameworks (the only library is Leaflet, used for the contact-page map)</li>
+    </ul>
+
+    <h3>Folder structure</h3>
+    <ul>
+      <li><code>home.html</code>, <code>about.html</code>, <code>products.html</code>, <code>contact.html</code>, <code>enquiry.html</code>, <code>planning.html</code></li>
+      <li><code>css/style.css</code> - all styling</li>
+      <li><code>js/script.js</code> - mobile menu, product list, lightbox, accordion, form validation, AJAX, map</li>
+      <li><code>images/</code> - logo, product photos, promotional image, QR code (compressed, descriptive file names)</li>
+      <li><code>robots.txt</code>, <code>sitemap.xml</code> - search engine files</li>
+      <li><code>README.md</code>, <code>CHANGELOG.md</code> - documentation</li>
+    </ul>
+
+    <h3>Browser &amp; device support</h3>
+    <ul>
+      <li>Latest versions of Chrome, Edge, Firefox and Safari</li>
+      <li>Responsive down to a 360px-wide mobile screen (images and tables scale with <code>max-width: 100%</code>)</li>
+    </ul>
+
+    <h3>Known limitations</h3>
+    <ul>
+      <li>The enquiry form sends its data to a free test API (JSONPlaceholder), so enquiries are validated and answered on screen but not stored or emailed. The contact form builds an email that the visitor sends from their own email app.</li>
+      <li>No payment processing is included - orders are handled manually via the enquiry form and Instagram.</li>
+    </ul>
+
+    
+
+    <h2>Reference list</h2>
+    <div class="reference-list">
+      <p>Mashigo, N.B. (2026) <em>INEEDYOU (Pty) Ltd: company profile</em>. [Unpublished]. Mohlakeng: INEEDYOU (Pty) Ltd.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2025</span> INEEDYOU (Pty) Ltd &middot; Reg. 2025/007134/07 &middot; Made in South Africa</p>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
