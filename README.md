@@ -9,18 +9,6 @@ INEEDYOU Authentic Wear is a message-driven streetwear brand made in South Afric
 
 This is **Part 3 - Enhancing Functionality and SEO**. It builds on Part 1 (HTML structure and content) and Part 2 (CSS and responsive design).
 
-## Setup instructions
-
-1. Download or clone the repository: `git clone https://github.com/nthabiseng-bit/website.git`
-2. Open `home.html` (or `index.html`) in a browser. No installation or build step is needed.
-3. To change where contact-form emails go, open `js/script.js` and edit `recipientEmail` in the `SETTINGS` block at the top.
-4. The Contact page map needs an internet connection (Leaflet and OpenStreetMap).
-
-### Deploying on GitHub Pages
-1. Push the files to the `main` branch.
-2. In the repository open **Settings > Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-3. After a minute the site is live at the address above.
-
 ## Folder structure
 
 ```
@@ -55,19 +43,6 @@ README.md, CHANGELOG.md
 - **Off-page plan:** share the site and the Instagram page (@ineedyouauthenticwear26), ask local businesses and micro-influencers to link to it, and keep the opening hours and location consistent online for local search.
 - **Page speed:** images compressed, lazy loading, `defer` scripts, no large libraries.
 - **Security:** no `innerHTML` with user data, `rel="noopener noreferrer"` on external links, honeypot field, integrity hashes on Leaflet, HTTPS through GitHub Pages.
-
-## Browser testing
-
-Complete this table after testing the deployed site (Pass / note the problem).
-
-| Browser | Desktop | Mobile |
-|---------|---------|--------|
-| Chrome  |         |        |
-| Edge    |         |        |
-| Firefox |         |        |
-| Safari  |         |        |
-
-Checks: menu button, product search/sort, lightbox, accordion, map, both forms (valid and invalid input).
 
 ## Known limitations
 
