@@ -1,7 +1,7 @@
 # INEEDYOU Authentic Wear - WEDE5020 Part 3
 
-**Repository:** https://github.com/nthabiseng-bit/website
-**Live site (GitHub Pages):** https://nthabiseng-bit.github.io/website/
+**Repository:** https://github.com/nthabiseng-bit/INEEDYOU-business-website-POE
+**Live site (GitHub Pages):** https://nthabiseng-bit.github.io/INEEDYOU-business-website-POE/
 
 ## What the website is about
 
